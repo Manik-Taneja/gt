@@ -16,6 +16,7 @@
 		CFA7874629C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */; };
 		CFA7875329C6999600F94DFE /* newfilesss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7875229C6999600F94DFE /* newfilesss.swift */; };
 		CFA7875529C699EC00F94DFE /* newnew.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7875429C699EC00F94DFE /* newnew.swift */; };
+		CFA7875729C69B0D00F94DFE /* branchfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7875629C69B0D00F94DFE /* branchfile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		CFA7875229C6999600F94DFE /* newfilesss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newfilesss.swift; sourceTree = "<group>"; };
 		CFA7875429C699EC00F94DFE /* newnew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newnew.swift; sourceTree = "<group>"; };
+		CFA7875629C69B0D00F94DFE /* branchfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = branchfile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CFA7871B29C697CC00F94DFE = {
 			isa = PBXGroup;
 			children = (
+				CFA7875629C69B0D00F94DFE /* branchfile.swift */,
 				CFA7875429C699EC00F94DFE /* newnew.swift */,
 				CFA7875229C6999600F94DFE /* newfilesss.swift */,
 				CFA7872629C697CC00F94DFE /* gtdesk */,
@@ -267,6 +270,7 @@
 			files = (
 				CFA7872A29C697CC00F94DFE /* ContentView.swift in Sources */,
 				CFA7875329C6999600F94DFE /* newfilesss.swift in Sources */,
+				CFA7875729C69B0D00F94DFE /* branchfile.swift in Sources */,
 				CFA7872829C697CC00F94DFE /* gtdeskApp.swift in Sources */,
 				CFA7875529C699EC00F94DFE /* newnew.swift in Sources */,
 			);
