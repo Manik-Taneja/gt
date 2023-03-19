@@ -1,0 +1,609 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFA7872829C697CC00F94DFE /* gtdeskApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7872729C697CC00F94DFE /* gtdeskApp.swift */; };
+		CFA7872A29C697CC00F94DFE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7872929C697CC00F94DFE /* ContentView.swift */; };
+		CFA7872C29C697CD00F94DFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA7872B29C697CD00F94DFE /* Assets.xcassets */; };
+		CFA7873029C697CD00F94DFE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA7872F29C697CD00F94DFE /* Preview Assets.xcassets */; };
+		CFA7873A29C697CD00F94DFE /* gtdeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7873929C697CD00F94DFE /* gtdeskTests.swift */; };
+		CFA7874429C697CD00F94DFE /* gtdeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7874329C697CD00F94DFE /* gtdeskUITests.swift */; };
+		CFA7874629C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFA7873629C697CD00F94DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA7871C29C697CC00F94DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA7872329C697CC00F94DFE;
+			remoteInfo = gtdesk;
+		};
+		CFA7874029C697CD00F94DFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFA7871C29C697CC00F94DFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFA7872329C697CC00F94DFE;
+			remoteInfo = gtdesk;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFA7872429C697CC00F94DFE /* gtdesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gtdesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7872729C697CC00F94DFE /* gtdeskApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskApp.swift; sourceTree = "<group>"; };
+		CFA7872929C697CC00F94DFE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CFA7872B29C697CD00F94DFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFA7872D29C697CD00F94DFE /* gtdesk.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gtdesk.entitlements; sourceTree = "<group>"; };
+		CFA7872F29C697CD00F94DFE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA7873529C697CD00F94DFE /* gtdeskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtdeskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7873929C697CD00F94DFE /* gtdeskTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskTests.swift; sourceTree = "<group>"; };
+		CFA7873F29C697CD00F94DFE /* gtdeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtdeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFA7874329C697CD00F94DFE /* gtdeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskUITests.swift; sourceTree = "<group>"; };
+		CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFA7872129C697CC00F94DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873229C697CD00F94DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873C29C697CD00F94DFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFA7871B29C697CC00F94DFE = {
+			isa = PBXGroup;
+			children = (
+				CFA7872629C697CC00F94DFE /* gtdesk */,
+				CFA7873829C697CD00F94DFE /* gtdeskTests */,
+				CFA7874229C697CD00F94DFE /* gtdeskUITests */,
+				CFA7872529C697CC00F94DFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFA7872529C697CC00F94DFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7872429C697CC00F94DFE /* gtdesk.app */,
+				CFA7873529C697CD00F94DFE /* gtdeskTests.xctest */,
+				CFA7873F29C697CD00F94DFE /* gtdeskUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFA7872629C697CC00F94DFE /* gtdesk */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7872729C697CC00F94DFE /* gtdeskApp.swift */,
+				CFA7872929C697CC00F94DFE /* ContentView.swift */,
+				CFA7872B29C697CD00F94DFE /* Assets.xcassets */,
+				CFA7872D29C697CD00F94DFE /* gtdesk.entitlements */,
+				CFA7872E29C697CD00F94DFE /* Preview Content */,
+			);
+			path = gtdesk;
+			sourceTree = "<group>";
+		};
+		CFA7872E29C697CD00F94DFE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7872F29C697CD00F94DFE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CFA7873829C697CD00F94DFE /* gtdeskTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7873929C697CD00F94DFE /* gtdeskTests.swift */,
+			);
+			path = gtdeskTests;
+			sourceTree = "<group>";
+		};
+		CFA7874229C697CD00F94DFE /* gtdeskUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFA7874329C697CD00F94DFE /* gtdeskUITests.swift */,
+				CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */,
+			);
+			path = gtdeskUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFA7872329C697CC00F94DFE /* gtdesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7874929C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdesk" */;
+			buildPhases = (
+				CFA7872029C697CC00F94DFE /* Sources */,
+				CFA7872129C697CC00F94DFE /* Frameworks */,
+				CFA7872229C697CC00F94DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = gtdesk;
+			productName = gtdesk;
+			productReference = CFA7872429C697CC00F94DFE /* gtdesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFA7873429C697CD00F94DFE /* gtdeskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7874C29C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdeskTests" */;
+			buildPhases = (
+				CFA7873129C697CD00F94DFE /* Sources */,
+				CFA7873229C697CD00F94DFE /* Frameworks */,
+				CFA7873329C697CD00F94DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA7873729C697CD00F94DFE /* PBXTargetDependency */,
+			);
+			name = gtdeskTests;
+			productName = gtdeskTests;
+			productReference = CFA7873529C697CD00F94DFE /* gtdeskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFA7873E29C697CD00F94DFE /* gtdeskUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFA7874F29C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdeskUITests" */;
+			buildPhases = (
+				CFA7873B29C697CD00F94DFE /* Sources */,
+				CFA7873C29C697CD00F94DFE /* Frameworks */,
+				CFA7873D29C697CD00F94DFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFA7874129C697CD00F94DFE /* PBXTargetDependency */,
+			);
+			name = gtdeskUITests;
+			productName = gtdeskUITests;
+			productReference = CFA7873F29C697CD00F94DFE /* gtdeskUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFA7871C29C697CC00F94DFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CFA7872329C697CC00F94DFE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					CFA7873429C697CD00F94DFE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFA7872329C697CC00F94DFE;
+					};
+					CFA7873E29C697CD00F94DFE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = CFA7872329C697CC00F94DFE;
+					};
+				};
+			};
+			buildConfigurationList = CFA7871F29C697CC00F94DFE /* Build configuration list for PBXProject "gtdesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFA7871B29C697CC00F94DFE;
+			productRefGroup = CFA7872529C697CC00F94DFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFA7872329C697CC00F94DFE /* gtdesk */,
+				CFA7873429C697CD00F94DFE /* gtdeskTests */,
+				CFA7873E29C697CD00F94DFE /* gtdeskUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFA7872229C697CC00F94DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7873029C697CD00F94DFE /* Preview Assets.xcassets in Resources */,
+				CFA7872C29C697CD00F94DFE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873329C697CD00F94DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873D29C697CD00F94DFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFA7872029C697CC00F94DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7872A29C697CC00F94DFE /* ContentView.swift in Sources */,
+				CFA7872829C697CC00F94DFE /* gtdeskApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873129C697CD00F94DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7873A29C697CD00F94DFE /* gtdeskTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFA7873B29C697CD00F94DFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFA7874629C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift in Sources */,
+				CFA7874429C697CD00F94DFE /* gtdeskUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFA7873729C697CD00F94DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA7872329C697CC00F94DFE /* gtdesk */;
+			targetProxy = CFA7873629C697CD00F94DFE /* PBXContainerItemProxy */;
+		};
+		CFA7874129C697CD00F94DFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFA7872329C697CC00F94DFE /* gtdesk */;
+			targetProxy = CFA7874029C697CD00F94DFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CFA7874729C697CD00F94DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CFA7874829C697CD00F94DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CFA7874A29C697CD00F94DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gtdesk/gtdesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gtdesk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFA7874B29C697CD00F94DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = gtdesk/gtdesk.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"gtdesk/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdesk;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CFA7874D29C697CD00F94DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gtdesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gtdesk";
+			};
+			name = Debug;
+		};
+		CFA7874E29C697CD00F94DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdeskTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gtdesk.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/gtdesk";
+			};
+			name = Release;
+		};
+		CFA7875029C697CD00F94DFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gtdesk;
+			};
+			name = Debug;
+		};
+		CFA7875129C697CD00F94DFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MACOSX_DEPLOYMENT_TARGET = 12.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mt.gtdeskUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = gtdesk;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFA7871F29C697CC00F94DFE /* Build configuration list for PBXProject "gtdesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7874729C697CD00F94DFE /* Debug */,
+				CFA7874829C697CD00F94DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA7874929C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7874A29C697CD00F94DFE /* Debug */,
+				CFA7874B29C697CD00F94DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA7874C29C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdeskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7874D29C697CD00F94DFE /* Debug */,
+				CFA7874E29C697CD00F94DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFA7874F29C697CD00F94DFE /* Build configuration list for PBXNativeTarget "gtdeskUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFA7875029C697CD00F94DFE /* Debug */,
+				CFA7875129C697CD00F94DFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFA7871C29C697CC00F94DFE /* Project object */;
+}
