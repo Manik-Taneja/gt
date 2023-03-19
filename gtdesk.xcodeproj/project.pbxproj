@@ -14,6 +14,7 @@
 		CFA7873A29C697CD00F94DFE /* gtdeskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7873929C697CD00F94DFE /* gtdeskTests.swift */; };
 		CFA7874429C697CD00F94DFE /* gtdeskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7874329C697CD00F94DFE /* gtdeskUITests.swift */; };
 		CFA7874629C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */; };
+		CFA7875329C6999600F94DFE /* newfilesss.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7875229C6999600F94DFE /* newfilesss.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CFA7873F29C697CD00F94DFE /* gtdeskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gtdeskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFA7874329C697CD00F94DFE /* gtdeskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskUITests.swift; sourceTree = "<group>"; };
 		CFA7874529C697CD00F94DFE /* gtdeskUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gtdeskUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CFA7875229C6999600F94DFE /* newfilesss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newfilesss.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 		CFA7871B29C697CC00F94DFE = {
 			isa = PBXGroup;
 			children = (
+				CFA7875229C6999600F94DFE /* newfilesss.swift */,
 				CFA7872629C697CC00F94DFE /* gtdesk */,
 				CFA7873829C697CD00F94DFE /* gtdeskTests */,
 				CFA7874229C697CD00F94DFE /* gtdeskUITests */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFA7872A29C697CC00F94DFE /* ContentView.swift in Sources */,
+				CFA7875329C6999600F94DFE /* newfilesss.swift in Sources */,
 				CFA7872829C697CC00F94DFE /* gtdeskApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
